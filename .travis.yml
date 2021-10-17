@@ -1,14 +1,8 @@
-
- do Ubuntu
- dist: focal
-
- # Linguagem Utilizada para Desenvolver a Aplicação
- # language: python
- #
- # # Versão que a aplicação suporta.
- # python:
- #   - "3.8"
- #
- #   # Instalação de Módulos que são necessários para a Aplicação.
- #   install:
- #     - pip install flask
+# Definir o Deploy no Heroku
+# deploy:
+#   provider: heroku
+#   api_key: $HEROKU_API_KEY
+#   edge: true 
+#   app: ESCREVA_AQUI_SUA_APP_DO_HEROKU
+#   on:
+#     branch: main
