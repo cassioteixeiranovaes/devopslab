@@ -4,6 +4,6 @@
    provider: heroku
    api_key: $HEROKU_API_KEY
    edge: true 
-   app: http://devopslab-cassioteixeiranovaes.herokuapp.com/
+   app: devopslab-cassioteixeiranovaes
    on:
      branch: main
