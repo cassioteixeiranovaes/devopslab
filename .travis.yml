@@ -17,9 +17,9 @@ script:
     
 # Definir o Deploy no Heroku
 deploy:
-  provider: heroku
-  api_key: $HEROKU_API_KEY
-  edge: true 
-  app: devopslab-cassioteixeiranovaes
-  on:
-    branch: main
+  - provider: heroku
+    api_key: $HEROKU_API_KEY
+    edge: true 
+    app: devopslab-cassioteixeiranovaes
+    on:
+      branch: main
