@@ -1,8 +1,8 @@
-#Definir o Deploy no Heroku
+# Definir o Deploy no Heroku
 deploy:
         provider: heroku
         api_key: $HEROKU_API_KEY
-        edge: true
+        edge: true 
         app: devopslab-cassioteixeiranovaes
         on:
-                brnach: main
+                branch: main
